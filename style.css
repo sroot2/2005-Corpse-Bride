@@ -48,24 +48,7 @@ article figure img{
 figcaption{
   font-size: 50px;
   color: rgba(131, 193, 208, 1);
-  margin-left: 25%;
-}
-
-#item2 {
-    color: rgba(131, 193, 208, 1);
-    margin-left: 11%;
-}
-
-#item3 {
-
-    color: rgba(131, 193, 208, 1);
-    margin-left: 22%;
-}
-
-#item4 {
-    color: rgba(131, 193, 208, 1);
-    margin-left: 19%;
-
+  margin-left: 0%;
 }
 
 footer a{
