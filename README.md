@@ -15,4 +15,4 @@
 ## Citations
 [Video](https://www.youtube.com/watch?v=o3hUaNN0Oao)
 [Font](https://fonts.google.com/specimen/Jim+Nightshade?query=jim)
-[Color pallet](https://www.figma.com/file/QIUND6A1c0axJPdbKT7PNF/Corpse-Bride?type=design&node-id=0-1&mode=design&t=m9pkkobJuKjCVn1h-0)
+[Color pallet/figma](https://www.figma.com/file/QIUND6A1c0axJPdbKT7PNF/Corpse-Bride?type=design&node-id=0-1&mode=design&t=m9pkkobJuKjCVn1h-0)

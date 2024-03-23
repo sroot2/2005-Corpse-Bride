@@ -12,9 +12,12 @@ dusty purple- rgba(134, 101, 125, 1)
       /* main UI color */
     --plyr-color-main: rgba(134, 101, 125, 1);
     /* audio controls background */
-    --plyr-video-controls-background: rgba(131, 193, 208, .30);
+    --plyr-video-controls-background: rgba(131, 193, 208, .65);
     /* audio controls color */
-    --plyr-video-control-color: rgba(54, 87, 118, 1);
+    --plyr-video-control-color: rgba(7, 32, 72, 1);
+  
+    --plyr-control-icon-size: 20px;
+    --plyr-font-size-time: 20px;
 }
 
 body {
@@ -24,40 +27,82 @@ body {
 }
 
 main h1 {
- font-size: 70px; 
+ font-size: 90px; 
   text-align: center;
-  color: rgba(54, 87, 118, 1);
+  color: rgba(222, 222, 232, 1);
+  background:rgba(58, 57, 62, 1); 
+  border: 5px rgba(54, 87, 118, 1) dashed; 
 }
 
 main p {
   color: rgba(131, 193, 208, 1);
+  font-size: 25px;
 }
 
 article h3{
-   font-size: 40px; 
+   font-size: 70px; 
   text-align: center;
-  color: rgba(54, 87, 118, 1);
+  color: rgba(222, 222, 232, 1);
 }
 
 article figure img{
-  border: 5px rgba(54, 87, 118, 1) solid;
-  border-radius: 10px;
-  margin: -2px;
+  border: 8px rgba(54, 87, 118, 1) dashed;
+  margin: 5px;
+  max-width: 40%;  
+  height: auto;
 }
  
 figcaption{
-  font-size: 50px;
+  font-size: 90px;
   color: rgba(131, 193, 208, 1);
-  margin-left: 0%;
 }
 
-footer a{
+footer a:link, 
+footer a:visited{
+  background: rgba(54, 87, 118, 1);
   color: rgba(222, 222, 232, 1);
+  font-size: 30px;
+  display: inline;
+  padding: 10px;
+}
+
+footer a:hover, 
+footer a:active {
+  background: rgba(134, 101, 125, 1);
+  color: rgba(7, 32, 72, 1);
+  display: block;
+  width: 115px;
+}
+
+@media  (max-width: 800px) {
+  :root {
+     --plyr-control-icon-size: 15px;
+    --plyr-font-size-time: 15px;
+  }
+
+    main h1 {
+ font-size: 40px; 
+  text-align: center;
+  border: 5px rgba(54, 87, 118, 1) dashed; 
+}
+
+    main p {
+  font-size: 20px;
+}
+  article h3 {
+   font-size: 35px; 
+  text-align: center;
+}
+
+article figure img{
+  border: 8px rgba(54, 87, 118, 1) dashed;
+  margin: 5px;
+  max-width: 35%;  
+  height: auto;
+}
+ 
+figcaption{
   font-size: 30px;
 }
 
-footer a:hover{
-  background: rgba(222, 222, 232, 1);
-  color: rgba(7, 32, 72, 1);
 }
-
