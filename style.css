@@ -8,6 +8,7 @@ gray blue- rgba(54, 87, 118, 1)
 dusty purple- rgba(134, 101, 125, 1)
 */
 @import url('https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&family=Quintessential&display=swap');
 :root {
       /* main UI color */
     --plyr-color-main: rgba(134, 101, 125, 1);
@@ -16,18 +17,18 @@ dusty purple- rgba(134, 101, 125, 1)
     /* audio controls color */
     --plyr-video-control-color: rgba(7, 32, 72, 1);
   
-    --plyr-control-icon-size: 20px;
-    --plyr-font-size-time: 20px;
+    --plyr-control-icon-size: 30px;
+    --plyr-font-size-time: 30px;
 }
 
 body {
    margin: 0;
   background: rgba(7, 32, 72, 1);
-  font-family: "Jim Nightshade", cursive;
 }
 
 main h1 {
- font-size: 90px; 
+  font-family: "Jim Nightshade", cursive;
+  font-size: 90px; 
   text-align: center;
   color: rgba(222, 222, 232, 1);
   background:rgba(58, 57, 62, 1); 
@@ -39,26 +40,27 @@ main p {
   font-size: 25px;
 }
 
-article h3{
-   font-size: 70px; 
-  text-align: center;
+article h3 {
+  font-family: "Jim Nightshade", cursive;
+  font-size: 70px; 
   color: rgba(222, 222, 232, 1);
 }
 
-article figure img{
+article figure img {
   border: 8px rgba(54, 87, 118, 1) dashed;
   margin: 5px;
-  max-width: 40%;  
+  max-width: 20%;  
   height: auto;
 }
  
-figcaption{
-  font-size: 90px;
+figcaption {
+  font-family: "Quattrocento", serif;
+  font-size: 30px;
   color: rgba(131, 193, 208, 1);
 }
 
 footer a:link, 
-footer a:visited{
+footer a:visited {
   background: rgba(54, 87, 118, 1);
   color: rgba(222, 222, 232, 1);
   font-size: 30px;
