@@ -10,76 +10,96 @@ dusty purple- rgba(134, 101, 125, 1)
 @import url('https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&family=Quintessential&display=swap');
 :root {
-      /* main UI color */
-    --plyr-color-main: rgba(134, 101, 125, 1);
-    /* audio controls background */
-    --plyr-video-controls-background: rgba(131, 193, 208, .65);
-    /* audio controls color */
-    --plyr-video-control-color: rgba(7, 32, 72, 1);
-  
-    --plyr-control-icon-size: 30px;
-    --plyr-font-size-time: 30px;
+  /* main UI color */
+--plyr-color-main: rgba(134, 101, 125, 1);
+/* audio controls background */
+--plyr-video-controls-background: rgba(131, 193, 208, .65);
+/* audio controls color */
+--plyr-video-control-color: rgba(7, 32, 72, 1);
+
+--plyr-control-icon-size: 30px;
+--plyr-font-size-time: 30px;
 }
 
 body {
-   margin: 0;
-  background: rgba(7, 32, 72, 1);
+background: rgba(7, 32, 72, 1);
+position: relative;
+isolation: isolate;
+margin: auto;
 }
 
+body::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  opacity: .2;
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; 
+  margin: auto; 
+  }
+
 main h1 {
-  font-family: "Jim Nightshade", cursive;
-  font-size: 90px; 
-  text-align: center;
-  color: rgba(222, 222, 232, 1);
-  background:rgba(58, 57, 62, 1); 
-  border: 5px rgba(54, 87, 118, 1) dashed; 
+font-family: "Jim Nightshade", cursive;
+font-size: 90px; 
+text-align: center;
+color: rgba(54, 87, 118, 1);
+background:rgba(58, 57, 62, 1); 
+border: 15px rgba(54, 87, 118, 1) double; 
+margin-top: 15px;
 }
 
 main p {
-  color: rgba(131, 193, 208, 1);
-  font-size: 25px;
+color: rgba(222, 222, 232, 1);
+font-size: 25px;
+letter-spacing: 3.5px;
+margin-top: 5px;
 }
 
-article h3 {
-  font-family: "Jim Nightshade", cursive;
-  font-size: 70px; 
-  color: rgba(222, 222, 232, 1);
-  text-align: center;
-}
-
-figure {
-display: flex;
-
+main article h3 {
+font-family: "Jim Nightshade", cursive;
+font-size: 50px; 
+color: rgba(131, 193, 208, 1);
+text-align: center;
 }
 
 article figure img {
-  border: 8px rgba(54, 87, 118, 1) dashed;
-  margin: 5px;
-  max-width: 20%;  
-  height: auto;
+border: 13px rgba(54, 87, 118, 1) double;
+margin: 5px;
+width: 360px;  
+height: 200px;
 }
- 
+
+figure {
+position: relative;
+left: 190px;
+}
+
 figcaption {
-  font-family: "Quattrocento", serif;
-  font-size: 30px;
-  color: rgba(131, 193, 208, 1);
+font-family: "Quattrocento", serif;
+font-size: 20px;
+color: rgba(222, 222, 232, 1)
 }
 
 footer a:link, 
 footer a:visited {
-  background: rgba(54, 87, 118, 1);
-  color: rgba(222, 222, 232, 1);
-  font-size: 30px;
-  display: inline;
-  padding: 10px;
+background: rgba(54, 87, 118, 1);
+color: rgba(222, 222, 232, 1);
+font-size: 15px;
+display: inline;
+margin: 10px;
+padding: 10px;
 }
 
 footer a:hover, 
 footer a:active {
-  background: rgba(134, 101, 125, 1);
-  color: rgba(7, 32, 72, 1);
-  display: block;
-  width: 115px;
+background: rgba(134, 101, 125, 1);
+color: rgba(7, 32, 72, 1);
+display: block;
+width: 115px;
 }
 
 @media  (max-width: 800px) {
