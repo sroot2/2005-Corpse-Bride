@@ -53,6 +53,7 @@ margin-top: 15px;
 }
 
 main p {
+font-family: "Jim Nightshade", cursive;
 color: rgba(222, 222, 232, 1);
 font-size: 25px;
 letter-spacing: 3.5px;
@@ -69,18 +70,19 @@ text-align: center;
 article figure img {
 border: 13px rgba(54, 87, 118, 1) double;
 margin: 5px;
-width: 360px;  
-height: 200px;
+width: 50%;  
+height: auto;
+opacity: 80%;
 }
 
 figure {
-position: relative;
-left: 190px;
-}
+  position: relative;
+  left: 240px;
+  }
 
 figcaption {
-font-family: "Quattrocento", serif;
-font-size: 20px;
+  font-family: "Jim Nightshade", cursive;
+font-size: 40px;
 color: rgba(222, 222, 232, 1)
 }
 
